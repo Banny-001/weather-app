@@ -1,0 +1,117 @@
+
+
+
+ *{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+    box-sizing: border-box;
+    
+   
+
+  }
+  
+  
+  .weather-card{
+    text-align: center;
+    background-color:rgb(48, 48, 149);
+    max-width: 600px;
+    padding: 2px;
+    margin: 40px;
+    align-items: center;
+    box-shadow: 1px 1px 0.5px;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+   
+  }
+  .header{
+    
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+   
+
+
+    input{
+      
+      width:70%;
+      padding: 20px;
+      border-radius: 10px;
+      margin-right: 5px;
+      align-content: center;
+      display: flex;
+      
+      
+    }
+    button{
+    
+    
+      border-radius: 50%;
+      color:rgb(20, 81, 196);
+      cursor: pointer;
+      
+    }
+    
+  }
+  .body{
+    color: whitesmoke;
+   
+  
+    
+    img{
+      box-shadow: none;
+      align-items: center;
+    
+    }
+    .weather-temp{
+        margin-bottom: 50px;
+        padding: none;
+    }
+  }
+  .footer{
+   display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    color: black;
+   
+    
+   .humidity{
+    margin-right: 70px;
+    
+   }
+   
+   img{
+    width:35px;
+    height: 40px;
+    padding: 7px;
+
+   }
+   .humidity-img{
+    margin-left: 10px;
+    margin-right: 0px;
+   }
+  }
+  @media screen (min-width:350px){
+    body{
+        display:flex;
+        align-items:center;
+       
+       }
+    .weather-card{
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .footer{
+        display: flex;
+    }
+
+  }
+
+ 
